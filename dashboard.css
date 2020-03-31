@@ -1,0 +1,251 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  
+}
+
+/*
+ * Typography
+ */
+
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  max-width: 200px;
+}
+
+.header{
+  color:#f9622f;
+  font-size: 16px;
+}
+
+@media (min-width: 300px) and (max-width: 400px)  {
+#logo-image{
+  max-height: 75px;
+  max-width: 70px;
+}
+}
+
+@media (min-width: 400px) and (max-width: 500px)  {
+  #logo-image{
+    max-height: 75px;
+    max-width: 70px;
+  }
+  }
+
+/* .item img {
+  height: 400px; 
+  width: auto;
+} */
+
+/* 
+@media (min-width: 800px) {
+  
+  .item img {
+    margin-top: -100px !important;
+  
+  }
+  
+}
+
+@media (min-width: 600px) {
+  
+  .item img {
+    margin-top: -50px;
+  
+  }
+  
+}
+
+@media (min-width: 400px) and (max-width: 600px)  {
+  
+  .item img {
+    margin-top: -20px;
+  
+  }
+  
+}
+
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+  #myCarousel{
+    height:300px !important;
+    max-height: 300px !important;
+  }
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+  #myCarousel{
+    height:240px !important;
+    max-height: 240px !important;
+  }
+}
+
+
+
+@media (min-width: 200px) and (max-width: 400px) {
+  #myCarousel{
+    height: 160px !important;
+    max-height: 160px !important;
+  }
+} */
+
+#myCarousel{
+
+  max-height: 400px;
+  min-height: 200px;
+ 
+}
+
+.dropdown-menu li a{
+  border-top: 1px solid grey;
+  font-size: 14px;
+}
+
+.nav a{
+  font-size: 15px;
+  color: black;
+}
+.colorblack{
+  color: black !important;
+}
+
+.nav a:hover{
+  color: black;
+}
+
+.nav .open>a{
+  color: black;
+}
+
+.tabpage{
+  margin-top: 50px;
+  height: 200px;
+  align-items: center;
+  
+}
+
+.text-align-center{
+  text-align: justify;
+  font-size: 16px;
+}
+
+.text-align-left{
+  text-align: left;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.padding-image div div {
+  padding: 5px 5px 5px 5px;
+}
+ 
+.subheader{
+ text-decoration: underline;
+ font-size: 25px;
+ text-align: center;
+
+}
+
+.carousel-inner{
+  max-height: 400px;
+  min-height: 216px;
+  /* width:auto; */
+}
+
+@media(min-height:600px){
+  .carousel-inner{
+   
+  }
+}
+
+
+.container{
+ width: 100% !important;
+}
+
+.row .nav-tabs{
+  border-bottom: 0px solid #ddd;
+}
+
+.logo{
+  width: 50px;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+.placeholder .text-muted{
+  margin: 0 auto;
+  text-align: left !important;
+}
+
+.contact_field{
+  padding: 5px;
+}
+
+#map-canvas {
+  height: 300px;
+  width: 600px;
+  background-color: #CCC;
+}
+
+.homeimage{
+  height: 80%;
+  width: 80%;
+}
+
+.payment{
+  height: 60px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.headerimg{
+  background-image: url(../image/headr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.homelinkhover{
+  border: 0.5px solid transparent !important;
+  border-radius:4px 4px 0 0 !important;
+  background-color: #ddd;
+}
+
+.companies{
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  height: 100px;
+  background-image: url(../image/headr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
